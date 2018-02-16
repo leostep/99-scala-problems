@@ -13,4 +13,6 @@ object P04 {
     size(0, ls)
   }
 
+  def lengthFunctional[A](ls: List[A]): Long =ls.foldLeft(0)((x, _) => x + 1)
+
 }
