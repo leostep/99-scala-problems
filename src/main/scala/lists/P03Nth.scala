@@ -1,3 +1,5 @@
+package lists
+
 import scala.annotation.tailrec
 
 object P03Nth {

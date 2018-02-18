@@ -1,3 +1,5 @@
+package lists
+
 object P05Reverse {
 
   def reverseBuiltin[A](ls: List[A]): List[A] = ls.reverse

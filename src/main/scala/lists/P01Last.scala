@@ -1,3 +1,5 @@
+package lists
+
 object P01Last {
   def lastBuiltin[A](ls: List[A]): A = ls.last
 
@@ -6,4 +8,5 @@ object P01Last {
     case _ :: xs => lastManual(xs)
     case _ => throw new NoSuchElementException
   }
+
 }

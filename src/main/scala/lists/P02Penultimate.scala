@@ -1,3 +1,5 @@
+package lists
+
 import java.util.NoSuchElementException
 
 import scala.annotation.tailrec
@@ -12,7 +14,4 @@ object P02Penultimate {
     case _ => throw new NoSuchElementException
   }
 
-  def main(args: Array[String]): Unit = {
-    println(penultimate(List(1, 2, 5, 28, 4)))
-  }
 }
