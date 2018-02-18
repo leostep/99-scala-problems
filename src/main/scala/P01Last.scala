@@ -1,4 +1,4 @@
-object P01 {
+object P01Last {
   def lastBuiltin[A](ls: List[A]): A = ls.last
 
   def lastManual[A](ls: List[A]): A = ls match {

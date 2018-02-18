@@ -1,6 +1,6 @@
 import scala.annotation.tailrec
 
-object P04 {
+object P04Length {
 
   def lengthBuiltin[A](ls: List[A]): Long = ls.length
 
